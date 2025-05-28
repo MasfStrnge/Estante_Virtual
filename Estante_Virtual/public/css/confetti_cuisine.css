@@ -9,20 +9,20 @@ body {
 }
 
 #header {
-  color: #E5D5A6;
+  background-color: #E5D5A6;
   width: 100%;
   height: 110px;
   padding: 20px 0 5px 0;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
 #nav {
-  color: #4A3223;
+  background-color: #4A3223;
   width: 100%;
   height: 110px;
   padding: 20px 0 5px 0;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
