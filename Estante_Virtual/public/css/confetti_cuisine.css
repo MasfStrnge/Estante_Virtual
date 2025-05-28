@@ -8,11 +8,10 @@ body {
   color: #625a56;
 }
 
-#nav {
+#header {
   width: 100%;
   height: 110px;
   padding: 20px 0 5px 0;
-  border-bottom: solid 8px #ee3114;
   box-shadow: 10px 10px 10px #E5D5A6;
   position: absolute;
   top: 0;
