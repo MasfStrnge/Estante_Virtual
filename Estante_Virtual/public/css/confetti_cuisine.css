@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina");
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 body {
   margin: 0;
@@ -18,9 +19,11 @@ body {
 }
 
 #title {
-  color: #3830AE;
+  color: #4A3223;
   margin: 0;
-  font-family: "Baloo Bhaina";
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  font-style: normal;
   text-transform: uppercase;
 }
 
