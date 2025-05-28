@@ -9,10 +9,19 @@ body {
 }
 
 #header {
+  color: #E5D5A6;
   width: 100%;
   height: 110px;
   padding: 20px 0 5px 0;
-  box-shadow: 10px 10px 10px #E5D5A6;
+  position: absolute;
+  top: 0;
+}
+
+#nav {
+  color: #4A3223;
+  width: 100%;
+  height: 110px;
+  padding: 20px 0 5px 0;
   position: absolute;
   top: 0;
 }
@@ -35,12 +44,12 @@ a {
   text-decoration: none;
 }
 
-#nav a {
+#header a {
   text-decoration: none;
 }
 
 .nav-align {
-  text-align: center;
+  text-align: left;
   padding: 3px 0;
 }
 
