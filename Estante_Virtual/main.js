@@ -42,6 +42,11 @@ router.get("/product.jpg", (req, res) => {
   utils.getFile("public/images/product.jpg", res);
 });
 
+router.get("/novo_estante.jpg", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.jpg);
+  utils.getFile("public/images/novo_estante.jpg", res);
+});
+
 router.get("/confetti_cuisine.css", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.css);
   utils.getFile("public/css/confetti_cuisine.css", res);
