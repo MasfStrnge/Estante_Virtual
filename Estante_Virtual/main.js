@@ -24,7 +24,7 @@ router.get("/contato.html", (req, res) => {
 
 router.post("/", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/thanks.html", res);
+  utils.getFile("views/obrigado.html", res);
 });
 
 router.get("/graph.png", (req, res) => {
@@ -57,9 +57,9 @@ router.get("/novo_estante.jpg", (req, res) => {
   utils.getFile("public/images/novo_estante.jpg", res);
 });
 
-router.get("/confetti_cuisine.css", (req, res) => {
+router.get("/estante_virtual.css", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.css);
-  utils.getFile("public/css/confetti_cuisine.css", res);
+  utils.getFile("public/css/estante_virtual.css", res);
 });
 
 router.get("/bootstrap.css", (req, res) => {
@@ -67,9 +67,9 @@ router.get("/bootstrap.css", (req, res) => {
   utils.getFile("public/css/bootstrap.css", res);
 });
 
-router.get("/confetti_cuisine.js", (req, res) => {
+router.get("/estante_virtual.js", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.js);
-  utils.getFile("public/js/confetti_cuisine.js", res);
+  utils.getFile("public/js/estante_virtual.js", res);
 });
 
 http.createServer(router.handle).listen(port);
