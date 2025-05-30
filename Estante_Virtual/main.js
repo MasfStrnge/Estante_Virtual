@@ -12,14 +12,14 @@ router.get("/", (req, res) => {
   utils.getFile("views/index.html", res);
 });
 
-router.get("/courses.html", (req, res) => {
+router.get("/login.html", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/courses.html", res);
+  utils.getFile("views/login.html", res);
 });
 
-router.get("/contact.html", (req, res) => {
+router.get("/contato.html", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.html);
-  utils.getFile("views/contact.html", res);
+  utils.getFile("views/contato.html", res);
 });
 
 router.post("/", (req, res) => {
@@ -35,6 +35,16 @@ router.get("/graph.png", (req, res) => {
 router.get("/people.jpg", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
   utils.getFile("public/images/people.jpg", res);
+});
+
+router.get("/livros.png", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.jpg);
+  utils.getFile("public/images/livros.png", res);
+});
+
+router.get("/interrogacoes.png", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.jpg);
+  utils.getFile("public/images/interrogacoes.png", res);
 });
 
 router.get("/product.jpg", (req, res) => {
