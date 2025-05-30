@@ -37,6 +37,16 @@ router.get("/people.jpg", (req, res) => {
   utils.getFile("public/images/people.jpg", res);
 });
 
+router.get("/livro.jpg", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.jpg);
+  utils.getFile("public/images/livro.jpg", res);
+});
+
+router.get("/interrogacoes.jpg", (req, res) => {
+  res.writeHead(httpStatus.OK, contentTypes.jpg);
+  utils.getFile("public/images/interrogacoes.jpg", res);
+});
+
 router.get("/product.jpg", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
   utils.getFile("public/images/product.jpg", res);
