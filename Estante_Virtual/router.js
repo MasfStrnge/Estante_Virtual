@@ -14,7 +14,7 @@ exports.handle = (req, res) => {
     routes[req.method][req.url](req, res);
   } catch (e) {
     res.writeHead(httpStatus.OK, contentTypes.html);
-    utils.getFile("views/error.html", res);
+    utils.getFile("views/erro.html", res);
   }
 };
 
