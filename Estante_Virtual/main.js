@@ -37,14 +37,14 @@ router.get("/people.jpg", (req, res) => {
   utils.getFile("public/images/people.jpg", res);
 });
 
-router.get("/livro.jpg", (req, res) => {
+router.get("/livros.png", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
-  utils.getFile("public/images/livro.jpg", res);
+  utils.getFile("public/images/livros.png", res);
 });
 
-router.get("/interrogacoes.jpg", (req, res) => {
+router.get("/interrogacoes.png", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
-  utils.getFile("public/images/interrogacoes.jpg", res);
+  utils.getFile("public/images/interrogacoes.png", res);
 });
 
 router.get("/product.jpg", (req, res) => {
